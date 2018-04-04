@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'neatAlerts_Example' do
+  pod 'neatAlerts', :path => '../'
+
+  target 'neatAlerts_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
